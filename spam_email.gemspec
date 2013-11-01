@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["phillipp@roell.ph"]
   spec.description   = %q{ActiveModel validation that checks email addresses against a blacklist of trash-mail providers}
   spec.summary       = %q{ActiveModel validation for spam/one-time email addresses}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/phillipp/spam_email"
   spec.license       = "whatever"
 
   spec.files         = `git ls-files`.split($/)
