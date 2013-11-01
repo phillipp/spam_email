@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = SpamEmail::VERSION
   spec.authors       = ["Phillipp Röll"]
   spec.email         = ["phillipp@roell.ph"]
-  spec.description   = %q{ActiveModel validation for spam/one-time email addresses}
+  spec.description   = %q{ActiveModel validation that checks email addresses against a blacklist of trash-mail providers}
   spec.summary       = %q{ActiveModel validation for spam/one-time email addresses}
   spec.homepage      = ""
   spec.license       = "whatever"
