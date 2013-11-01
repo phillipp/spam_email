@@ -1,0 +1,5 @@
+Copyright (c) 2013 Phillipp Röll
+
+Use as you wish :-)
+
+Blacklist by Chris Birner <cbhp@lima-city.de>

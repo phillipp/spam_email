@@ -1,0 +1,5 @@
+de:
+  spam_email:
+    validations:
+      email:
+        blacklisted: "ist ein gesperrter E-Mail-Provider"
