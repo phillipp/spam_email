@@ -2,7 +2,7 @@
 
 If you have to reach out to your users with important information and they signed
 up with a trash e-mail address you're not like to get the desired attention.This
-gem checks the e-mail address domain against a blcklist of trash mail providers.
+gem checks the e-mail address domain against a blacklist of trash mail providers.
 
 ## Installation
 
