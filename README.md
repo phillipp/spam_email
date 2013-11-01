@@ -1,6 +1,8 @@
 # SpamEmail
 
-TODO: Write a gem description
+If you have to reach out to your users with important information and they signed up with a
+trash e-mail address you're not like to get the desired attention. This gem checks the e-mail
+address domain against a blcklist of trash mail providers.
 
 ## Installation
 
@@ -18,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+**Be advised that the validation checks NOT if a correct e-mail address is given.
+Validation will pass with empty string/`nil` value! Checking the input with
+`valid_email` or at least checking `presence: true` is strongly recommendend!**
+
+``class User < ActiveRecord::Base
+  validates :email, presence: true, spam_email: true
+end
+``
+
+or specify a custom message with (the gem comes with en/de/fr locales):
+
+`validates :email, presence: true, spam_email: { message: "is a blacklisted provider! Please enter a address where you can be reached permanent" }`
 
 ## Contributing
 
@@ -27,3 +40,8 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Thanks
+
+Thanks go to Chris Birner (cbhp@lima-city.de) for the (inital) blacklist and
+to https://github.com/hallelujah/valid_email for inspiration.
