@@ -204,6 +204,7 @@ module SpamEmail
         "find-love.info", 
         "fivemail.de", 
         "fizmail.com", 
+		"fleckens.hu",
         "flyspam.com", 
         "fly-ts.de", 
         "for-fun.info", 
