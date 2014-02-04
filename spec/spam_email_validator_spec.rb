@@ -9,28 +9,38 @@ describe SpamEmailValidator do
 
   shared_examples_for "Validating emails" do
     before { I18n.locale = locale }
+    let(:invalid_domain) { "10minutemail.com" }
 
     describe "#validate_each" do
       subject { record_class.new }
       before { subject.email = email }
       before { subject.valid? }
 
-      context "email domain is listed in in blacklisted domains" do
-        let(:email) { 'johndoe@12minutemail.com' }
-        its(:valid?) { should be_false }
-        specify { subject.errors[:email].should == errors }
+      context "when email domain is listed in in blacklisted domains" do
+        let(:email) { "johndoe@#{invalid_domain}" }
+
+        it "should not be valid" do
+          subject.should_not be_valid
+          subject.errors[:email].should == errors
+        end
       end
 
-      context "upcase provided email domain is listed in in blacklisted domains" do
-        let(:email) { 'johndoe@12MINUTEMAIL.com' }
-        its(:valid?) { should be_false }
-        specify { subject.errors[:email].should == errors }
+      context "when upcase provided email domain is listed in in blacklisted domains" do
+        let(:email) { "johndoe@#{invalid_domain.upcase}" }
+
+        it "should not be valid" do
+          subject.should_not be_valid
+          subject.errors[:email].should == errors
+        end
       end
 
-      context "email domain is not listed in in blacklisted domains" do
+      context "when email domain is not listed in in blacklisted domains" do
         let(:email) { 'johndoe@lima-city.de' }
-        its(:valid?) { should be_true }
-        specify { subject.errors[:email].should be_empty }
+
+        it "should be valid" do
+          subject.should be_valid
+          subject.errors[:email].should be_empty
+        end
       end
     end
   end

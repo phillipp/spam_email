@@ -1,5 +1,5 @@
 require "spam_email/version"
-require "spam_email/domains"
+require "spam_email/blacklist"
 require 'active_model'
 require 'active_model/validations'
 require 'mail'
@@ -11,10 +11,14 @@ class SpamEmailValidator < ActiveModel::EachValidator
     begin
       m = Mail::Address.new(value)
       return if m.domain.nil?
-      r = SpamEmail::BLACKLIST.include?(m.domain.downcase)
-    rescue Exception => e
-      r = false
+      domain = m.domain.downcase
+
+      if SpamEmail::BLACKLIST[domain]
+        message = (options[:message] || I18n.t(:blacklisted, scope: "spam_email.validations.email"))
+        record.errors[attribute] << message
+      end
+    rescue RuntimeError
+      return
     end
-    record.errors[attribute] << (options[:message] || I18n.t(:blacklisted, scope: "spam_email.validations.email")) if r
   end
 end

@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "ruby-progressbar"
   spec.add_development_dependency "rake"
   spec.add_runtime_dependency "mail"
   spec.add_runtime_dependency "activemodel"
