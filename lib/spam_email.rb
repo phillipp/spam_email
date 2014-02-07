@@ -17,7 +17,7 @@ class SpamEmailValidator < ActiveModel::EachValidator
         message = (options[:message] || I18n.t(:blacklisted, scope: "spam_email.validations.email"))
         record.errors[attribute] << message
       end
-    rescue RuntimeError
+    rescue Mail::Field::ParseError
       return
     end
   end
