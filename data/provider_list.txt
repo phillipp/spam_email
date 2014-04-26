@@ -151,6 +151,7 @@ dontreg.com
 dontsendmespam.de
 dotman.de
 drdrb.com
+drdrb.net
 dropcake.de
 dspsbl.com
 dudmail.com
@@ -405,6 +406,7 @@ mailinator.com
 mailinator.net
 mailinator2.com
 mailinator99.com
+mailismagic.com
 mail-it24.com
 mailita.tk
 mailme.ir
@@ -578,6 +580,7 @@ r0.ru
 rambler.ru
 rbcmail.ru
 rcpt.at
+reallymymail.com
 realtyalerts.ca
 receiveee.com
 recode.me
