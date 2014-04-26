@@ -13,7 +13,7 @@ class SpamEmailValidator < ActiveModel::EachValidator
       return if m.domain.nil?
       domain = m.domain.downcase
 
-      if SpamEmail::BLACKLIST[domain]
+      if SpamEmail::BLACKLIST.include?(domain)
         message = (options[:message] || I18n.t(:blacklisted, scope: "spam_email.validations.email"))
         record.errors[attribute] << message
       end
