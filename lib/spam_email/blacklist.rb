@@ -659,7 +659,7 @@ module SpamEmail
       'punkass.com',
       'put2.net',
       'putthisinyourspamdatabase.com',
-      'pwrby.com'
+      'pwrby.com',
       'qisoa.com,',
       'qlfg.com',
       'qoika.com',
