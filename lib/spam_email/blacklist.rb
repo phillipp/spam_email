@@ -660,7 +660,7 @@ module SpamEmail
       'put2.net',
       'putthisinyourspamdatabase.com',
       'pwrby.com',
-      'qisoa.com,',
+      'qisoa.com',
       'qlfg.com',
       'qoika.com',
       'qq.com',
