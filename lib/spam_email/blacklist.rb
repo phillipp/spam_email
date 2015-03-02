@@ -1,5 +1,6 @@
 module SpamEmail
   BLACKLIST = Set.new [
+      '027168.com',
       '0815.ru',
       '0815.su',
       '0clickemail.com',
@@ -8,6 +9,7 @@ module SpamEmail
       '0wnd.org',
       '10mail.org',
       '10minutemail.co.uk',
+      '10minutemail.co.za',
       '10minutemail.com',
       '10minutemail.eu',
       '10minutemail.info',
@@ -78,6 +80,7 @@ module SpamEmail
       'anon-mail.de',
       'anonmails.de',
       'anon-me.de',
+      'anonym.email',
       'anonymbox.com',
       'anonymous-email.net',
       'anonymousfeedback.net',
@@ -140,6 +143,7 @@ module SpamEmail
       'cellurl.com',
       'centermail.com',
       'centermail.net',
+      'chacuo.net',
       'chammy.info',
       'chcb.info',
       'cheatmail.de',
