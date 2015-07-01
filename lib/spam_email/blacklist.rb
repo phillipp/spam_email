@@ -102,6 +102,7 @@ module SpamEmail
       'arar.ws',
       'armyspy.com',
       'asdasd.ru',
+      'atrais-kredits24.com',
       'au.ru',
       'automotivetechstore.com',
       'autorambler.ru',
@@ -276,6 +277,7 @@ module SpamEmail
       'fastyamaha.com',
       'faza.ru',
       'fiifke.de',
+      'fillpress.com',
       'film-blog.biz',
       'filzmail.com',
       'find-love.info',
@@ -418,6 +420,7 @@ module SpamEmail
       'jetable.net',
       'jetable.org',
       'jnxjn.com',
+      'jobbikszimpatizans.hu',
       'jourrapide.com',
       'junk.to',
       'junk1e.com',
@@ -437,6 +440,7 @@ module SpamEmail
       'kurzepost.de',
       'kuwaiti.tv',
       'l33r.eu',
+      'labetteraverouge.at',
       'lackmail.net',
       'lags.us',
       'land.ru',
@@ -520,6 +524,7 @@ module SpamEmail
       'mailtemp.info',
       'mail-temporaire.fr',
       'mailtome.de',
+      'mailtor.net',
       'mailtothis.com',
       'mailtrash.net',
       'mailtv.net',
@@ -840,6 +845,7 @@ module SpamEmail
       'startkeys.com',
       'stinkefinger.net',
       'stop-my-spam.com',
+      'streetwisemail.com',
       'stuffmail.de',
       'super-auswahl.de',
       'supergreatmail.com',
@@ -1017,6 +1023,7 @@ module SpamEmail
       'zmail.ru',
       'zoaxe.com',
       'zoemail.com',
-      'zoemail.net'
+      'zoemail.net',
+      'zoho.com'
     ]
 end
