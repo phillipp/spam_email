@@ -1446,6 +1446,7 @@ module SpamEmail
       'xellonprime.com',
       'xents.com',
       'xing886.uu.gl',
+      'xn--occ.com',
       'xww.ro',
       'xy9ce.tk',
       'xyzfree.net',
