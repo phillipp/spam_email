@@ -1095,6 +1095,7 @@ module SpamEmail
       'proxymail.eu',
       'prtnx.com',
       'prtz.eu',
+      'psoxs.com',
       'pub.ftpinc.ca',
       'pulpmail.us',
       'punkass.com',
