@@ -2409,7 +2409,7 @@ module SpamEmail
       'zomg.info',
       'zxcv.com',
       'zxcvbnm.com',
-      'zzz.com'
+      'zzz.com',
       'zzzprime.com',
     ]
 end
