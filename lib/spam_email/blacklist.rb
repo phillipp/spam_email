@@ -1399,6 +1399,8 @@ module SpamEmail
       'muuh.info',
       'muzikutusu.com',
       'mvrht.com',
+      'mvrht.net',
+      'mvrht.org',
       'mx0.www.new.eu',
       'mx0.wwwnew.eu',
       'mxneudsd.top',
