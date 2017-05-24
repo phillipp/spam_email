@@ -2078,6 +2078,7 @@ module SpamEmail
       'throwawaymail.com',
       'throya.com',
       'tilien.com',
+      'tipsb.com',
       'tittbit.in',
       'tm.tosunkaya.com',
       'tm43.cf',
