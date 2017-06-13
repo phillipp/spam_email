@@ -1534,6 +1534,7 @@ module SpamEmail
       'octivian.com',
       'odaymail.com',
       'odnorazovoe.ru',
+      'oepia.com',
       'ohaaa.de',
       'ok.ru',
       'oleco.net',
