@@ -2098,6 +2098,7 @@ module SpamEmail
       'topranklist.de',
       'tormail.org',
       'tqoai.com',
+      'tqosi.com',
       'tradedoubling.co.uk',
       'tradermail.info',
       'tralalajos.ga',
