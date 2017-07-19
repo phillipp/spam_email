@@ -1529,6 +1529,7 @@ module SpamEmail
       'o.oai.asia',
       'o.opendns.ro',
       'o.spamtrap.ro',
+      'oalsp.com',
       'objectmail.com',
       'obobbo.com',
       'octivian.com',
