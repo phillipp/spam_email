@@ -1856,6 +1856,7 @@ module SpamEmail
       # 'sina.com',
       'sinnlos-mail.de',
       'siteposter.net',
+      'sjuaq.com',
       'skeefmail.com',
       'skim.com',
       'skrx.tk',
