@@ -4,6 +4,8 @@ If you have to reach out to your users with important information and they signe
 up with a trash e-mail address you're not like to get the desired attention.This
 gem checks the e-mail address domain against a blacklist of trash mail providers.
 
+[![Gem Version](https://badge.fury.io/rb/spam_email@2x.png)](https://badge.fury.io/rb/spam_email)
+
 ## Installation
 
 Add this line to your application's Gemfile:
