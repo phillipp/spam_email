@@ -2212,6 +2212,7 @@ module SpamEmail
       'throwawaymail.com',
       'throwawaymail.uu.gl',
       'throya.com',
+      'tiapz.com',
       'tilien.com',
       'tipsb.com',
       'tittbit.in',
