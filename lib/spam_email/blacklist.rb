@@ -2090,6 +2090,7 @@ module SpamEmail
       'spliffandspleef.com',
       'spoofmail.de',
       'spybox.de',
+      'sqoai.com',
       'squizzy.de',
       'squizzy.net',
       'sr.ro.lt',
