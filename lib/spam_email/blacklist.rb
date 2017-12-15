@@ -1174,6 +1174,7 @@ module SpamEmail
       'kokusu.net',
       'koliper.date',
       'kook.ml',
+      'kopqi.com',
       'korsun.pp.ru',
       'kostenlosemailadresse.de',
       'koszmail.pl',
