@@ -2615,6 +2615,7 @@ module SpamEmail
       'zain.site',
       'zainmax.net',
       'zaktouni.fr',
+      'zamge.com',
       'zasod.com',
       'ze.gally.jp',
       'zebins.com',
