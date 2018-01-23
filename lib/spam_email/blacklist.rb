@@ -1707,6 +1707,7 @@ module SpamEmail
       'password.nafko.cf',
       'passwort.schwarzmail.ga',
       'pcusers.otherinbox.com',
+      'pdold.com',
       'pecdo.com',
       'pencilwide.com',
       'pencilwide.net',
