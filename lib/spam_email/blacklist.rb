@@ -185,6 +185,7 @@ module SpamEmail
       'ama-trans.de',
       'amail.club',
       'amail.com',
+      'amail.men',
       'amail4.me',
       'amazon.coms.hk',
       'amilegit.com',
