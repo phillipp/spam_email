@@ -1873,6 +1873,7 @@ module SpamEmail
       'koweancenjancok.gq',
       'koweancenjancok.ml',
       'koyocah.ml',
+      'kpooa.com',
       'kqmnd.storeyee.com',
       'kr74.com',
       'kraftmail.zapto.org',
