@@ -3805,7 +3805,7 @@ module SpamEmail
       'vipmail.pw',
       'virgilio.ga',
       'virgilio.gq',
-      'virgilio.it',
+      # 'virgilio.it',
       'virgilio.ml',
       'virgiliomail.cf',
       'virgiliomail.ga',
