@@ -3682,6 +3682,7 @@ module SpamEmail
       'turoid.com',
       'turual.com',
       # 'tut.by',
+      'tutye.com',
       'tvchd.com',
       'tverya.com',
       'twinmail.de',
