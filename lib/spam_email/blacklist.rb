@@ -4169,7 +4169,7 @@ module SpamEmail
       'mail.ludovicdu12.me',
       'mail.mezimages.net',
       'mail.myspamnoturs.cf',
-      'mail.ru',
+      # 'mail.ru',
       'mail.wtf',
       'mail.zp.ua',
       'mail0.cf',

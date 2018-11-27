@@ -1,3 +1,3 @@
 module SpamEmail
-  VERSION = '0.0.57'
+  VERSION = '0.0.63'
 end
