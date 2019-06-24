@@ -7312,6 +7312,7 @@ module SpamEmail
       'urchatz.ga',
       'ureee.us',
       'urfey.com',
+      'urhen.com',
       'uroid.com',
       'uruarurqup5ri9s28ki.cf',
       'uruarurqup5ri9s28ki.tk',
