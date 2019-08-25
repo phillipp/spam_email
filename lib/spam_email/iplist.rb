@@ -1,3 +1,5 @@
+require 'set'
+
 module SpamEmail
   IPLIST = Set.new [
       '176.126.236.241',
