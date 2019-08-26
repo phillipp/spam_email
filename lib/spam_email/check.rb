@@ -5,15 +5,18 @@ module SpamEmail
   def self.blacklisted? email_address
     address = Mail::Address.new(email_address)
     return false unless address.domain
-    completeDomain = address.domain.downcase
-    listed = BLACKLIST.include?(completeDomain)
-    if !listed
-        mainDomain = PublicSuffix.domain(completeDomain)
-        if completeDomain != mainDomain
-            listed = BLACKLIST.include?(mainDomain)
-        end
+
+    complete_domain = address.domain.downcase
+    listed = BLACKLIST.include?(complete_domain)
+
+    unless listed
+      main_domain = PublicSuffix.domain(complete_domain)
+      if complete_domain != main_domain
+        listed = BLACKLIST.include?(main_domain)
+      end
     end
-    return listed    
+
+    listed    
   rescue Mail::Field::ParseError
     false
   end
