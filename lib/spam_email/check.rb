@@ -7,12 +7,12 @@ module SpamEmail
     return false unless address.domain
 
     complete_domain = address.domain.downcase
-    listed = BLACKLIST.include?(complete_domain)
+    main_domain = PublicSuffix.domain(complete_domain)
+    listed = BLACKLIST.include?(main_domain)
 
     unless listed
-      main_domain = PublicSuffix.domain(complete_domain)
       if complete_domain != main_domain
-        listed = BLACKLIST.include?(main_domain)
+        listed = BLACKLIST.include?(complete_domain)
       end
     end
 
