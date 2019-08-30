@@ -20,5 +20,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rake"
   spec.add_runtime_dependency "mail"
+  spec.add_runtime_dependency "public_suffix"
   spec.add_runtime_dependency "activemodel"
 end
