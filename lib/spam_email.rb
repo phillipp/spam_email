@@ -10,7 +10,7 @@ class SpamEmailValidator < ActiveModel::EachValidator
   def validate_each(record, attribute, value)
     if SpamEmail.blacklisted?(value)
       message = (options[:message] || I18n.t(:blacklisted, scope: 'spam_email.validations.email'))
-      record.errors[attribute] << message
+      record.errors.add(attribute, :blacklist, message: message)
     end
   end
 end

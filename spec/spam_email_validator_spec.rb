@@ -3,6 +3,11 @@ require 'spec_helper'
 describe SpamEmailValidator do
   record_class = Class.new do
     include ActiveModel::Validations
+
+    def self.model_name
+      ActiveModel::Name.new(self, nil, "temp_record")
+    end
+
     attr_accessor :email
     validates :email, :spam_email => true
   end
