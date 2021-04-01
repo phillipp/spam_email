@@ -40,7 +40,7 @@ validates :email, presence: true, spam_email: { message: "is a blacklisted provi
 
 If you want to add/remove providers you can use an initializer and modify `SpamEmail::Blacklist`.
 To disable a provider just set the hash value for the domain to false.
-You can add new domainsby modifing the hash.
+You can add new domains by modifing the hash.
 
 You can also check the blacklist directly:
 
